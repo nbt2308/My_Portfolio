@@ -1,0 +1,290 @@
+/* ==========PC============= */
+@media  (min-width:1100px) {
+   
+    
+    
+}
+/* ==========Tablet & mobile============= */
+@media (min-width:768px) and (max-width:1099.98px)
+{
+    .main-content
+    {
+        width: 900px;
+        max-width: calc(100% - 48px);
+        margin:0 auto;
+        
+    
+    }
+    header.scrolled
+    {
+        width: 900px;
+        max-width: calc(100% - 48px);
+        top: 10px;
+        background-color: rgba(36, 36, 36, 0.8);
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        transition: 0.4s ease-in-out ;
+    }
+    .main-header{
+        /* margin: 0 auto; */
+        width: 900px;
+        max-width: calc(100% - 48px);
+        margin:0 auto;
+        height: 80px;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        transition: 0.3s ease-in-out ;
+    }
+    div.content{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-top:50px;
+        padding-bottom:50px ;
+        color: rgb(255, 255, 255);
+        /* background-color: #fff; */
+        
+    }
+    /* ===============top================ */
+    div.content__table_intro-top{
+        width: 100%;
+        height:auto;
+        margin-top: 20px;
+        
+        
+        background-color:transparent;
+    }
+    div.content img.top-img{
+        width: 100%; 
+        height: 500px;  
+        object-fit: cover;
+        border-radius: 20px;
+        border: 3px solid white;
+        
+    }
+    /* =========bottom=========== */
+    div.content__table_intro-bottom{
+        width: 100%;
+        height: 750px;
+        margin-left: 0;
+        
+        background-color:rgba(51, 50, 50,0.5);
+        backdrop-filter: blur(5px);
+        border-radius: 20px;
+        border: 10px solid rgb(255, 255, 255,0.2);
+    }
+    div.content img.bottom-img{
+        width: 100%;
+        height: 750px;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: 3px solid white;
+     }
+    
+    
+}
+
+/* ==========Mobile============= */
+@media (max-width: 767.98px) 
+{
+    .btn
+    {
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        padding : 10px 20px;
+        border-radius: 50px;
+    
+    }
+    .main-content
+    {
+        width: 400px;
+        max-width: calc(100% - 48px);
+        margin:0 auto;
+        
+    
+    }
+    header.scrolled
+    {
+        width: 400px;
+        /* max-width: calc(100% - 48px); */
+        top: 10px;
+        background-color: rgba(36, 36, 36, 0.8);
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        transition: 0.4s ease-in-out ;
+    }
+    .main-header{
+        /* margin: 0 auto; */
+        width: 400px;
+        max-width: calc(100% - 48px);
+        margin:0 auto;
+        height: 80px;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        transition: 0.3s ease-in-out ;
+    }
+    header img.logo
+    {
+        width: 40px;
+        height: 41px;
+        border-radius: 15px;
+        border: 3px solid white;
+    
+    
+    }
+    header nav ul li a.active
+    {
+        background-color: white;
+        color: #000000;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 50px;
+        padding: 11px 9px;
+    }
+    div.content{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-top:50px;
+        padding-bottom:50px ;
+        color: rgb(255, 255, 255);
+        /* background-color: #fff; */
+        
+    }
+    
+    /* ===============top================ */
+    div.content__table_intro-top{
+        width: 100%;
+        height:auto;
+        margin-top: 20px;
+        background-color:transparent;
+    }
+    div.content img.top-img{
+        width: 100%; 
+        height: 500px;  
+        object-fit: cover;
+        border-radius: 20px;
+        border: 3px solid white;
+        
+    }
+    div.intro-text{
+        font-size: 1.2rem;
+    }
+    /* =========bottom=========== */
+    div.content__table_intro-bottom{
+        width: 100%;
+        height: 600px;
+        margin-left: 0;
+        
+        background-color:rgba(51, 50, 50,0.5);
+        backdrop-filter: blur(5px);
+        border-radius: 20px;
+        border: 10px solid rgb(255, 255, 255,0.2);
+    }
+    div.content img.bottom-img{
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: 3px solid white;
+     }
+     div.introduction h1 {
+        font-size: 3rem;
+    }
+    div.basic-information{
+        align-items:normal;
+    }
+    h2.intro-text-name{
+        font-size: 4rem;
+    }
+    span.myname{
+        padding: 10px 10px;
+    }
+    span.myname-text{
+        font-size: 4rem;
+    }
+    div.basic-information__info .name{
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+    div.basic-information__icon{
+        
+        height: fit-content;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    div.basic-information__info p{
+        font-size: 1.5rem;
+        color: rgb(168, 165, 165);
+    }
+    div.passion h1{
+        font-size: 2rem
+    }
+    div.passion p{
+        font-size: 1.5rem;
+    }
+    a.download{
+        font-size: 1.5rem;
+        
+    } 
+     /* ===================footer================= */
+     footer p{
+        font-size: 1.5rem;
+     }
+     div.social-icons a{
+        font-size: 2rem;
+     }
+    /* hide nav */
+    div.nav-header nav{
+        display: none;
+    } 
+    /* nav bar when staying in mobile and tablet*/
+     .mobile-header
+    {
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+        
+        background-color: transparent;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 15px;
+    }
+
+    
+    .menu-header__icon{
+        position: absolute;
+        top:26px;
+        left: 58px;
+        color: rgb(255, 255, 255);
+        width: 24px;
+        
+        
+    }
+    .menu-header__icon.scrolled_navbar{
+        position: absolute;
+        top:26px;
+        left: 78px;
+        color: rgb(255, 255, 255);
+        width: 24px;
+    }
+    
+    
+    
+}
+ 
+
+/* an tam */
+
